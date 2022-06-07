@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="libary/bootstrap/bootstrap.min.css">
+    <script src="libary/jquery/jquery.min.js"></script>
+
+
+<body>
+<center>
+    <button type="button" id="ip" class="btn btn-dark btn-lg">ip serching</button>
+    <button type="button" id="browser" class="btn btn-dark btn-lg">browser check</button>
+    <button type="button" id="cookies" class="btn btn-dark btn-lg">cookies check</button>
+    <button type="button" id="lang" class="btn btn-dark btn-lg">lang check</button>
+    <button type="button" id="mobile" class="btn btn-dark btn-lg">mobile check</button>
+    <button type="button" id="adblocker" class="btn btn-dark btn-lg">adblocker check</button>
+    <button type="button" id="script" class="btn btn-dark btn-lg">js enabled</button>
+    <button type="button" id="batt" class="btn btn-dark btn-lg">battery check</button>
+
+    <br>
+<br>
+    <button type="button"  id="script2" class="btn btn-dark btn-lg" style="display: none">js disabled</button>
+</center>
+<noscript>
+    <style>
+        #script{
+            display: none;
+        }
+        #script2{
+            display: block !important;
+        }
+    </style>
+</noscript>
+<script src="scripts/info.js"></script>
+
+</body>
+</html>
