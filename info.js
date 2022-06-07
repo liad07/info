@@ -79,6 +79,9 @@ function battery() {
         let c = ""
         var btn4=document.getElementById("batt");
         m = battery.level * 100 + "%"
+        if(battery.level*100>80){
+                    btn4.className="btn btn-lg btn-success";
+        }
         if (battery.charging) {
             m += " ⚡";
             btn4.className="btn btn-lg btn-success";
